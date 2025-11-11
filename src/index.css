@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom small overrides to ensure good contrast */
+:root {
+  --copper: #b87333;
+}
+
+body {
+  background: #000000;
+}
+
+a { color: var(--copper); }
+img { display:block; max-width:100%; }
